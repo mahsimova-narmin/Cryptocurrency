@@ -49,9 +49,8 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.3.0")
     implementation("com.squareup.retrofit2:adapter-rxjava2:2.3.0")
 
-    implementation("io.reactivex.rxjava3:rxjava:3.1.7")
-    /*
-        implementation("io.reactivex.rxjava3:rxandroid:3.1.7")
-     */
+    implementation("io.reactivex.rxjava2:rxjava:2.2.6")
+    implementation("io.reactivex.rxjava2:rxandroid:2.1.1")
+
     implementation("androidx.recyclerview:recyclerview:1.3.1")
 }
